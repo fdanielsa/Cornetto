@@ -233,7 +233,7 @@ body{
 		top: 0;
 	}
 	.appearance{
-		transition: all .8s ease .5s;
+		transition: all .8s ease .2s;
 	}
 .seccion2-container{
 	position: relative;
@@ -263,8 +263,12 @@ body{
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
+		#title-cone{
+			transition: all 1s ease;
+	}
 		#color-diferent{
 		color:#D5CDFD;
+		transition: all 1s ease;
 	}
 	.sexy-cone{
 		font-size: 30px;
@@ -273,8 +277,12 @@ body{
 		line-height: 1.6;
 		margin-top: 18px;
 	}
+		#delicios-smoothy{
+			transition: all 1s ease .3s;
+		}
 		#white-letters{
 		color: #FFFFFF;
+		transition: all 1s ease .3s;
 	}
 	.description{
 		font-size: 17px;
@@ -284,8 +292,12 @@ body{
 		line-height: 1.5;
 		margin-top: 15px;
 	}
+		#text-description{
+			transition: all 1s ease .6s;
+		}
 		#description-color{
 		color: #F5F3FD;
+		transition: all 1s ease .6s;
 	}
 	.btn{
 		position: absolute;
@@ -307,10 +319,13 @@ body{
 		box-shadow: 0 10px 50px -5px #F87062;
 		cursor: pointer;
 	}
+		#btn-cone-buy{
+			transition: all 1s ease .9s;
+		}
 		#btn-buy{
 		background:linear-gradient(to right, #8E73E6 7%, #F2648C 100%);
-		box-shadow: 0 19
-		px 50px -10px #8E73E6;
+		box-shadow: 0 19px 50px -10px #8E73E6;
+		transition: all 1s ease .9s;
 	}
 	.rec5{
 		width: 200px;
@@ -401,12 +416,21 @@ body{
 		font-size: 150px;
 		color: #FFFFFF;
 	}
+	#number-sec-cookies{
+		transition: all 1s ease;
+	}
 	.detail-num2{
 		width: 40px;
 		height: 5px;
 		background-color: #FFF;
 		margin-left: 397px;
 		margin-top: 335px;
+	}
+	#detail-sec-cookies{
+		transition: all 1s ease 1s;
+	}
+	.ice-cream-cookies-move{
+		transition: all 1s ease 2s;
 	}
 .section-avatars{
 		position: relative;

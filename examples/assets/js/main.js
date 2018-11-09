@@ -56,3 +56,57 @@ var chocolate_cone = new Waypoint.Inview({
 		$(".appearance").addClass("number-ice-effect")
 	}
 });
+
+var text_cone = new Waypoint.Inview({
+  element: document.getElementById("description_text") ,
+  enter: function(direction){
+    $("#title-cone").removeClass("number-ice-effect");
+    $("#delicios-smoothy").removeClass("number-ice-effect");
+    $("#text-description").removeClass("number-ice-effect");
+    $("#btn-cone-buy").removeClass("number-ice-effect")
+  },
+  exited: function(direction){
+    $("#title-cone").addClass("number-ice-effect");
+    $("#delicios-smoothy").addClass("number-ice-effect");
+    $("#text-description").addClass("number-ice-effect");
+    $("#btn-cone-buy").addClass("number-ice-effect")
+  }
+});
+
+var text_cone_cookies = new Waypoint.Inview({
+  element: document.getElementById("move_different") ,
+  enter: function(direction){
+    $("#color-diferent").removeClass("number-ice-effect");
+    $("#white-letters").removeClass("number-ice-effect");
+    $("#description-color").removeClass("number-ice-effect");
+    $("#btn-buy").removeClass("number-ice-effect")
+  },
+  exited: function(direction){
+    $("#color-diferent").addClass("number-ice-effect");
+    $("#white-letters").addClass("number-ice-effect");
+    $("#description-color").addClass("number-ice-effect");
+    $("#btn-buy").addClass("number-ice-effect")
+  }
+});
+
+var cone_cookies = new Waypoint.Inview({
+  element: document.getElementById("cookies-text") ,
+  enter: function(direction){
+    $("#number-sec-cookies").removeClass("number-ice-effect");
+    $("#detail-sec-cookies").removeClass("number-ice-effect")
+  },
+  exited: function(direction){
+    $("#number-sec-cookies").addClass("number-ice-effect");
+    $("#detail-sec-cookies").addClass("number-ice-effect")
+  }
+});
+
+var icew_cream_cookies = new Waypoint.Inview({
+  element: document.getElementById("cornetto_4") ,
+  enter: function(direction){
+    $(".ice-cream-cookies-move").removeClass("number-ice-effect");
+  },
+  exited: function(direction){
+    $(".ice-cream-cookies-move").addClass("number-ice-effect")
+  }
+});
